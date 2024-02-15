@@ -1,9 +1,11 @@
 {
   "name": "expressjs-learn-restapi",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www --exec babel-node",
+    "server": "npm run dev"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
